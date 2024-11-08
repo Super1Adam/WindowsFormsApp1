@@ -16,5 +16,18 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 图书管理ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            admin2 admin = new admin2();
+            this.Hide();
+            admin.ShowDialog();
+            this.Show();
+        }
     }
 }
